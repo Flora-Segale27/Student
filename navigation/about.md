@@ -116,7 +116,7 @@ Here is what I did at those places
 My family consists of my mom, dad, and baby brother!
 
 - My dad's side of the family is from Minnesota, US, but they have Irish and Northern Italian origins as well.
-- My mom's side of the family is from Italy, specifically Puglia, the southernmost part of Italy. Our Italian relatives have since then moved to Norther Italy, and now border Austria, Germany, and France. Their kids lean Italian, German, and English at school.
+- My mom's side of the family is from Italy, specifically Puglia, the "heel" Italy's "boot." Our Italian relatives have since then moved to Norther Italy, and now border Austria, Germany, and France. Their kids lean Italian, German, and English at school.
 
 <comment>
 Some of my most recent favorite pictures! Scroll to the right for more ...
