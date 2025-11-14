@@ -111,7 +111,7 @@ Here is what I did at those places
 - 🏢 San Diego CA Qualcomm, Satellite Comm and 1st Mobile OS (BREW) '96 to '19
 - 👨‍🏫 San Diego CA Teacher of Computer Science @ Del Norte High School San Diego '19 to present
 
-### Culture, Family, and Fun
+### My Family!
 
 Everything for me, as for many others, revolves around family and faith.
 
