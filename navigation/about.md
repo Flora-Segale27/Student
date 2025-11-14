@@ -115,7 +115,7 @@ Here is what I did at those places
 
 My family consists of my mom, dad, and baby brother!
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+- My dad's side of the family is from Minnesota, US, but they have Irish and Northern Italian origins as well.
 - My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
 
 <comment>
