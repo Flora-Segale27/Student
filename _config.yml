@@ -1,11 +1,11 @@
 # Site-wide settings
 # ------------------
 #
-# title: Your awesome title
+# title: About Me
 #
-# author:
-#   name: GitHub User
-#   email: your-email@domain.com
+# author: Flora Segale
+#   name: Flora-Segale27
+#   email: felwinterchorus
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -15,9 +15,9 @@
 #   results) and in your feed.xml site description.
 
 title: Open Coding 
-description: "Class of 2026"
-owner_name: John Mortensen
-github_username: jm1021 
+description: "Class of 2029"
+owner_name: Flora Segale
+github_username: Flora-Segale27
 github_repo: "student" 
 baseurl: "/student" 
 future: true
