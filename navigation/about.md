@@ -125,7 +125,6 @@ Some of my most recent favorite pictures! Scroll to the right for more ...
   <img src="{{site.baseurl}}/images/about/anthony_selfie.png" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/baylee_pic.png" alt="Image 2">
   <img src="{{site.baseurl}}/images/about/d2_fynch.png" alt="Image 3">
-  <img src="{{site.baseurl}}/images/about/griffin_pic.png" alt="Image 4">
   <img src="{{site.baseurl}}/images/about/hoco_pic_w_the_girls.png" alt="Image 5">
   <img src="{{site.baseurl}}/images/about/last_race_group_pic.png" alt="Image 6">
   <img src="{{site.baseurl}}/images/about/mr_gusich.png" alt="Image 7">
