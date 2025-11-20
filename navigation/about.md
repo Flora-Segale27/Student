@@ -14,8 +14,8 @@ Flags are made using Wikipedia images
 </comment>
 
 <style>
-    /* Style looks pretty compact, 
-       - grid-container and grid-item are referenced the code 
+    /* Style looks pretty compact,
+       - grid-container and grid-item are referenced the code
     */
     .grid-container {
         display: grid;
@@ -105,7 +105,7 @@ These are the places I've gone to school:
 - 🚌 I then graduated 5th grade from Del Sur and started 6-8th grade at Oak Valley Middle
 - 📚 And now I'm a freshman at Del Norte High!
 
-### My Family!
+### My Family
 
 My family consists of my mom, dad, and my baby brother!
 
