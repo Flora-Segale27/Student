@@ -15,7 +15,7 @@ breadcrumbs: True
 
 The following commands are universal for all machine types, terminals, and projects. The previous installation steps ensured that all machine types have compatible tools. Follow these steps in order:
 
-### Open a Linux-supported Terminal (Ubuntu, Kali, MacOS).
+### Open a Linux-supported Terminal (Ubuntu, Kali, MacOS)
 
 ### Setup a directory for projects
 
@@ -212,7 +212,7 @@ The SDLC adds the important steps of Make and Test to the workflow. This ensures
 5. Update GitHub Pages:
 
    * GitHub Pages Action automatically rebuilds your site with the latest changes.
-   * Visit your public website at https://<yourGitHubID>.github.io/student to see the updates.
+   * Visit your public website at https://yourGitHubID.github.io/student to see the updates.
 
 ```mermaid
 flowchart TD

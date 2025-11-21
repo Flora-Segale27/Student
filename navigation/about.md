@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About!
-permalink: /about!/
+permalink: /about/
 comments: true
 ---
 
@@ -9,14 +9,12 @@ comments: true
 
 Here are some places I have lived.
 
-<comment>
-Flags are made using Wikipedia images
-</comment>
+<!-- Flags are made using Wikipedia images -->
 
 <style>
-    /* Style looks pretty compact,
-       - grid-container and grid-item are referenced the code
-    */
+     /* Style looks pretty compact,
+         - the classes `grid-container` and `grid-item` are referenced in the code
+     */
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
@@ -48,51 +46,43 @@ Flags are made using Wikipedia images
     }
 </style>
 
-<!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
+<!-- This container uses class `grid-container` for CSS and id `grid_container` for JavaScript -->
 <div class="grid-container" id="grid_container">
     <!-- content will be added here by JavaScript -->
 </div>
 
 <script>
     // 1. Make a connection to the HTML container defined in the HTML div
-    var container = document.getElementById("grid_container"); // This container connects to the HTML div
+    const container = document.getElementById("grid_container");
 
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
-    var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
-    var living_in_the_world = [
+    const http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+    const living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
         {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
         {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"}
     ];
 
-    // 3a. Consider how to update style count for size of container
-    // The grid-template-columns has been defined as dynamic with auto-fill and minmax
-
-    // 3b. Build grid items inside of our container for each row of data
+    // 3. Build grid items inside our container for each row of data
     for (const location of living_in_the_world) {
-        // Create a "div" with "class grid-item" for each row
-        var gridItem = document.createElement("div");
-        gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
-        // Add "img" HTML tag for the flag
-        var img = document.createElement("img");
-        img.src = http_source + location.flag; // concatenate the source and flag
-        img.alt = location.flag + " Flag"; // add alt text for accessibility
+        const gridItem = document.createElement("div");
+        gridItem.className = "grid-item";
 
-        // Add "p" HTML tag for the description
-        var description = document.createElement("p");
-        description.textContent = location.description; // extract the description
+        const img = document.createElement("img");
+        img.src = http_source + location.flag;
+        img.alt = location.description + " flag";
 
-        // Add "p" HTML tag for the greeting
-        var greeting = document.createElement("p");
-        greeting.textContent = location.greeting;  // extract the greeting
+        const description = document.createElement("p");
+        description.textContent = location.description;
 
-        // Append img and p HTML tags to the grid item DIV
+        const greeting = document.createElement("p");
+        greeting.textContent = location.greeting;
+
         gridItem.appendChild(img);
         gridItem.appendChild(description);
         gridItem.appendChild(greeting);
 
-        // Append the grid item DIV to the container DIV
         container.appendChild(gridItem);
     }
 </script>
@@ -101,25 +91,24 @@ Flags are made using Wikipedia images
 
 These are the places I've gone to school:
 
-- 🏫 I went to 2 elementary schools - Woodbury K-6 Elementary and Del Sur ELementary
-- 🚌 I then graduated 5th grade from Del Sur and started 6-8th grade at Oak Valley Middle
-- 📚 And now I'm a freshman at Del Norte High!
+- 🏫 I attended two elementary schools: Woodbury K-6 Elementary and Del Sur Elementary.
+- 🚌 I graduated 5th grade from Del Sur and then attended Oak Valley Middle (6th–8th grade).
+- 📚 I'm currently a freshman at Del Norte High.
 
 ### My Family
 
-My family consists of my mom, dad, and my baby brother!
+My family consists of my mom, dad, and my baby brother.
 
-- My dad's side of the family is from Minnesota, US, but they have Irish and Northern Italian origins as well.
-- My mom's side of the family is from Italy, specifically Puglia, the "heel" Italy's "boot." Our Italian relatives have since then moved to Norther Italy, and now border Austria, Germany, and France. Their kids lean Italian, German, and English at school.
+- My dad's side of the family is from Minnesota, USA, with Irish and Northern Italian origins.
+- My mom's side is from Puglia (the "heel" of Italy's "boot"). Many relatives later moved to Northern Italy near the borders with Austria, Germany, and France. Their children learn Italian, German, and English at school.
 
-<comment>
-Some of my most recent favorite pictures! Scroll to the right for more!
-</comment>
+<!-- Some of my most recent favorite pictures — scroll right to see more -->
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/anthony_selfie.png" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/baylee_pic.png" alt="Image 2">
-  <img src="{{site.baseurl}}/images/about/d2_fynch.png" alt="Image 3">
-  <img src="{{site.baseurl}}/images/about/hoco_pic_w_the_girls.png" alt="Image 5">
-  <img src="{{site.baseurl}}/images/about/last_race_group_pic.png" alt="Image 6">
-  <img src="{{site.baseurl}}/images/about/mr_gusich.png" alt="Image 7">
-  <img src="{{site.baseurl}}/images/about/scarlette" alt="Image 8">
+    <img src="{{site.baseurl}}/images/about/anthony_selfie.png" alt="Anthony selfie">
+    <img src="{{site.baseurl}}/images/about/baylee_pic.png" alt="Baylee">
+    <img src="{{site.baseurl}}/images/about/d2_fynch.png" alt="D2 Fynch">
+    <img src="{{site.baseurl}}/images/about/hoco_pic_w_girls.png" alt="Homecoming with friends">
+    <img src="{{site.baseurl}}/images/about/last_race_group_pic.png" alt="Last race group">
+    <img src="{{site.baseurl}}/images/about/mr_gusich.jpeg" alt="Mr. Gusich">
+    <img src="{{site.baseurl}}/images/about/scarlette.png" alt="Scarlette">
+</div>
