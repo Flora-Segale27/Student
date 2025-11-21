@@ -7,4 +7,4 @@ author: Flora Segale
 permalink: /tools/journey
 ---
 
-## 11/12/25 - The First Day
+## 11/12/25 - The First Day!
