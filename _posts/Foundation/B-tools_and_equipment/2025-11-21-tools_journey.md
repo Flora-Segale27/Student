@@ -9,4 +9,4 @@ permalink: /tools/journey
 
 ## 11/12/25 - The First Day!
 
-<!-- This was the day that I first used my GitHub ID and logged in to opencs to see my commit screen and dashboard.--->
+This was the day that I first used my GitHub ID and logged in to opencs to see my commit screen and dashboard.
