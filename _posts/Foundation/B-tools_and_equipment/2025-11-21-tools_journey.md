@@ -11,5 +11,11 @@ permalink: /tools/journey
 
 *This was the day that I first used my GitHub ID and logged in to opencs to see my commit screen and dashboard.*
 
-I learned how to use my account to log into GitHub and start looking up everything about commits and the other parts of GitHub, among other things.
+During this step, I learned how to use my newly-created GitHub account to log into GitHub and Open Coding Society and started looking up everything about commits and the other parts of GitHub.
 
+<div class="image-gallery">
+    <img src="{{site.baseurl}}/images/about/opencs_acc_details.png" >
+    <img src="{{site.baseur1}}/images/about/first_change_in_vscode.dev.png">
+    <img src="{{site.baseur1}}/images/about/first_five_commits.png">
+
+</div>
