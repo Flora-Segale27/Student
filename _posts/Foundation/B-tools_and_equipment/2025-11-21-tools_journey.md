@@ -66,5 +66,7 @@ permalink: /tools/journey
 𝙽𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝 not 𝚏𝚘𝚞𝚗𝚍 :(
 <img src="{{site.baseurl}}/images/about/nbconvert_not_found.png" >
 𝙽𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝 𝚏𝚘𝚞𝚗𝚍!
+<img src=" {{site.baseurl}}/images/about/ubuntu_terminal.png" >
+𝙽𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝 𝚏𝚒𝚡𝚎𝚍!
 <img src="{{site.baseurl}}/images/about/nbconvert_found.png" >
 
