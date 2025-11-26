@@ -1,32 +1,32 @@
 ---
 toc: True
 layout: post
-title: Tools Journey 
-description: This page is a documentation of my struggles to fetch, download, and install my new computer science knowlege! Below you'll see a two-week timeline of my journey.
+title: 𝚃𝚘𝚘𝚕𝚜 𝙹𝚘𝚞𝚛𝚗𝚎𝚢 
+description: 𝚃𝚑𝚒𝚜 𝚙𝚊𝚐𝚎 𝚒𝚜 𝚊 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚘𝚏 𝚖𝚢 𝚜𝚝𝚛𝚞𝚐𝚐𝚕𝚎𝚜 𝚝𝚘 𝚏𝚎𝚝𝚌𝚑, 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍, 𝚊𝚗𝚍 𝚒𝚗𝚜𝚝𝚊𝚕𝚕 𝚖𝚢 𝚗𝚎𝚠 𝚌𝚘𝚖𝚙𝚞𝚝𝚎𝚛 𝚜𝚌𝚒𝚎𝚗𝚌𝚎 𝚔𝚗𝚘𝚠𝚕𝚎𝚐𝚎! 𝙱𝚎𝚕𝚘𝚠 𝚢𝚘𝚞'𝚕𝚕 𝚜𝚎𝚎 𝚊 𝚝𝚠𝚘-𝚠𝚎𝚎𝚔 𝚝𝚒𝚖𝚎𝚕𝚒𝚗𝚎 𝚘𝚏 𝚖𝚢 𝚓𝚘𝚞𝚛𝚗𝚎𝚢.
 author: Flora Segale
 permalink: /tools/journey
 ---
 
-## 11/12/25 - The First Day!
+## 𝟷𝟷/𝟷𝟸/𝟸𝟻 - 𝚃𝚑𝚎 𝙵𝚒𝚛𝚜𝚝 𝙳𝚊𝚢!
 
-*This was the day that I first used my GitHub ID and logged in to opencs to see my commit screen and dashboard.*
+*𝚃𝚑𝚒𝚜 𝚠𝚊𝚜 𝚝𝚑𝚎 𝚍𝚊𝚢 𝚝𝚑𝚊𝚝 𝙸 𝚏𝚒𝚛𝚜𝚝 𝚞𝚜𝚎𝚍 𝚖𝚢 𝙶𝚒𝚝𝙷𝚞𝚋 𝙸𝙳 𝚊𝚗𝚍 𝚕𝚘𝚐𝚐𝚎𝚍 𝚒𝚗 𝚝𝚘 𝚘𝚙𝚎𝚗𝚌𝚜 𝚝𝚘 𝚜𝚎𝚎 𝚖𝚢 𝚌𝚘𝚖𝚖𝚒𝚝 𝚜𝚌𝚛𝚎𝚎𝚗 𝚊𝚗𝚍 𝚍𝚊𝚜𝚑𝚋𝚘𝚊𝚛𝚍.*
 
-During this step, I learned how to use my newly-created GitHub account to log into GitHub and Open Coding Society and started looking up everything about commits and the other parts of GitHub.
+𝙳𝚞𝚛𝚒𝚗𝚐 𝚝𝚑𝚒𝚜 𝚜𝚝𝚎𝚙, 𝙸 𝚕𝚎𝚊𝚛𝚗𝚎𝚍 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚖𝚢 𝚗𝚎𝚠𝚕𝚢-𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝙶𝚒𝚝𝙷𝚞𝚋 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚝𝚘 𝚕𝚘𝚐 𝚒𝚗𝚝𝚘 𝙶𝚒𝚝𝙷𝚞𝚋 𝚊𝚗𝚍 𝙾𝚙𝚎𝚗 𝙲𝚘𝚍𝚒𝚗𝚐 𝚂𝚘𝚌𝚒𝚎𝚝𝚢 𝚊𝚗𝚍 𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚕𝚘𝚘𝚔𝚒𝚗𝚐 𝚞𝚙 𝚎𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐 𝚊𝚋𝚘𝚞𝚝 𝚌𝚘𝚖𝚖𝚒𝚝𝚜 𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚝𝚑𝚎𝚛 𝚙𝚊𝚛𝚝𝚜 𝚘𝚏 𝙶𝚒𝚝𝙷𝚞𝚋.
 
-My Open Coding Society account details:
+𝙼𝚢 𝙾𝚙𝚎𝚗 𝙲𝚘𝚍𝚒𝚗𝚐 𝚂𝚘𝚌𝚒𝚎𝚝𝚢 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚍𝚎𝚝𝚊𝚒𝚕𝚜:
 <img src="{{site.baseurl}}/images/about/opencs_acc_details.png" >
-My  GitHub account details:
+𝙼𝚢 𝙶𝚒𝚝𝙷𝚞𝚋 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚍𝚎𝚝𝚊𝚒𝚕𝚜:
 <img src="{{site.baseurl}}/images/about/github_acc_details.png" >
-My first commit: 
+𝙼𝚢 𝚏𝚒𝚛𝚜𝚝 𝚌𝚘𝚖𝚖𝚒𝚝: 
 <img src="{{site.baseurl}}/images/about/initial_commit_action.png" >
 
-## 11/13/25 - The Second Day!
+## 𝟷𝟷/𝟷𝟹/𝟸𝟻 - 𝚃𝚑𝚎 𝚂𝚎𝚌𝚘𝚗𝚍 𝙳𝚊𝚢!
 
-*This was the day that I actually started working on the code in vscode, using vscode.dev through my browser and started writing on Issues.*
+*𝚃𝚑𝚒𝚜 𝚠𝚊𝚜 𝚝𝚑𝚎 𝚍𝚊𝚢 𝚝𝚑𝚊𝚝 𝙸 𝚊𝚌𝚝𝚞𝚊𝚕𝚕𝚢 𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚘𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎 𝚒𝚗 𝚟𝚜𝚌𝚘𝚍𝚎, 𝚞𝚜𝚒𝚗𝚐 𝚟𝚜𝚌𝚘𝚍𝚎.𝚍𝚎𝚟 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚖𝚢 𝚋𝚛𝚘𝚠𝚜𝚎𝚛 𝚊𝚗𝚍 𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚠𝚛𝚒𝚝𝚒𝚗𝚐 𝚘𝚗 𝙸𝚜𝚜𝚞𝚎𝚜.*
 
-During *this* step, I started digging into index.md and about.md and changing my own code. I also published my GitHub server for the first time, although as I would find out, it was publishing the wrong site :sad:
+𝙳𝚞𝚛𝚒𝚗𝚐 *𝚝𝚑𝚒𝚜* 𝚜𝚝𝚎𝚙, 𝙸 𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚍𝚒𝚐𝚐𝚒𝚗𝚐 𝚒𝚗𝚝𝚘 𝚒𝚗𝚍𝚎𝚡.𝚖𝚍 𝚊𝚗𝚍 𝚊𝚋𝚘𝚞𝚝.𝚖𝚍 𝚊𝚗𝚍 𝚌𝚑𝚊𝚗𝚐𝚒𝚗𝚐 𝚖𝚢 𝚘𝚠𝚗 𝚌𝚘𝚍𝚎. 𝙸 𝚊𝚕𝚜𝚘 𝚙𝚞𝚋𝚕𝚒𝚜𝚑𝚎𝚍 𝚖𝚢 𝙶𝚒𝚝𝙷𝚞𝚋 𝚜𝚎𝚛𝚟𝚎𝚛 𝚏𝚘𝚛 𝚝𝚑𝚎 𝚏𝚒𝚛𝚜𝚝 𝚝𝚒𝚖𝚎, 𝚊𝚕𝚝𝚑𝚘𝚞𝚐𝚑 𝚊𝚜 𝙸 𝚠𝚘𝚞𝚕𝚍 𝚏𝚒𝚗𝚍 𝚘𝚞𝚝, 𝚒𝚝 𝚠𝚊𝚜 𝚙𝚞𝚋𝚕𝚒𝚜𝚑𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚛𝚘𝚗𝚐 𝚜𝚒𝚝𝚎.
 
-Don't worry though! A day later, I figured out the problem and fixed it with the help of Anusha.
+𝙳𝚘𝚗'𝚝 𝚠𝚘𝚛𝚛𝚢 𝚝𝚑𝚘𝚞𝚐𝚑! 𝙰 𝚍𝚊𝚢 𝚕𝚊𝚝𝚎𝚛, 𝙸 𝚏𝚒𝚐𝚞𝚛𝚎𝚍 𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚋𝚕𝚎𝚖 𝚊𝚗𝚍 𝚏𝚒𝚡𝚎𝚍 𝚒𝚝 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚑𝚎𝚕𝚙 𝚘𝚏 𝙰𝚗𝚞𝚜𝚑𝚊.
 
 Name changed: 
 <img src="{{site.baseurl}}/images/about/first_change_in_vscode.dev.png" >
@@ -38,3 +38,4 @@ Wrong site:
 ## 11/14/25 - Day Three:
 
 On day three, I got more into the nitty gritty of the code and started figuring out what all of the code meant - I read through all of the code in the GitHub actions to learn what it was doing, and I updated my Issues (and comments) every minute. My biggest discovery was finding out what was causing the disruption in the code to the site that was showing up. Anusha helped me realize that the yaml was trying to go to a repository that didn't exist. See, I had named my repository "**S**tudent", and the code that was written to connect the code to the url was preset to send the code to "**s**tudent" instead. Once we figured it out, Anusha changed it on the yaml and then the site finally worked as planned! I also re-ran the initial commit, which hadn't worked because of the preivous error.
+
