@@ -19,3 +19,21 @@ My  GitHub account details:
 <img src="{{site.baseurl}}/images/about/github_acc_details.png" >
 My first commit: 
 <img src="{{site.baseurl}}/images/about/initial_commit_action.png" >
+
+## 11/13/25 - The Second Day!
+
+*This was the day that I actually started working on the code in vscode, using vscode.dev through my browser and started writing on Issues.*
+
+During *this* step, I started digging into index.md and about.md and changing my own code. I also published my GitHub server for the first time, although as I would find out, it was publishing the wrong site :sad:
+
+Don't worry though! A couple days later, I figured out the problem and fixed it with the help of Anusha.
+
+Name changed: 
+<img src="{{site.baseurl}}/images/about/first_change_in_vscode.dev.png" >
+Second commited action:
+<img src="{{site.baseurl}}/images/about/second_commited_action.png" >
+Wrong site:
+<img src="{{site.baseurl}}/images/about/wrong_opencs_page.png" >
+
+## 11/14/25 - Day Three:
+
