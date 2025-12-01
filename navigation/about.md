@@ -49,7 +49,7 @@ Here are some places I have lived.
     <!-- content will be added here by JavaScript -->
 </div>
 
-<!-->
+<!--
 <script>
     // 1. Make a connection to the HTML container defined in the HTML div
     const container = document.getElementById("grid_container");
@@ -84,12 +84,16 @@ Here are some places I have lived.
 
         container.appendChild(gridItem);
     }
+
+</script> 
+-->
+
 <div class="row">
-img src ___ <style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/cali flag.png"> <style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/minnesota flag.png"> <style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/italian flag.png"> <style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/puglia flag.png"> <style="height:100px; margin-right:50px;">
 </div>
-</script> -->
-
-
 
 ### Journey through Life
 
