@@ -91,7 +91,7 @@ Here are some places I have visited/have family.
 <img src="{{site.baseurl}}/images/about/cali flag.png" style="height:100px; margin-right:50px;" alt="California (2018-Present)">
 <img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:50px;" alt="My dad and I were both born in Minnesota and I lived in St. Paul for the first 18 months of my life">
 <img src="{{site.baseurl}}/images/about/italian flag.png" style="height:100px; margin-right:50px;" alt="My mom was born in Italy and we visit every summer!">
-<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:50px;" alt="My mom was born in a region of Italy called Puglia. This is it's flag :)">
+<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:50px;" alt="My mom was born in a region of Italy called Puglia. This is its flag :)">
 </div>
 
 ### Journey through Life
