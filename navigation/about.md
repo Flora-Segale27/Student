@@ -9,8 +9,6 @@ comments: true
 
 Here are some places I have lived.
 
-<!-- Flags are made using Wikipedia images -->
-
 <style>
      /* Style looks pretty compact,
          - the classes `grid-container` and `grid-item` are referenced in the code
@@ -51,6 +49,7 @@ Here are some places I have lived.
     <!-- content will be added here by JavaScript -->
 </div>
 
+<!-->
 <script>
     // 1. Make a connection to the HTML container defined in the HTML div
     const container = document.getElementById("grid_container");
@@ -85,7 +84,12 @@ Here are some places I have lived.
 
         container.appendChild(gridItem);
     }
-</script>
+<div class="row">
+img src ___ <style="height:100px; margin-right:50px;">
+</div>
+</script> -->
+
+
 
 ### Journey through Life
 
