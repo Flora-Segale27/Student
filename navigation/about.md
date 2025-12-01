@@ -85,8 +85,7 @@ Here are some places I have lived.
         container.appendChild(gridItem);
     }
 
-</script> 
--->
+</script> -->
 
 <div class="row">
 <img src="{{site.baseurl}}/images/about/cali flag.png"> <style="height:100px; margin-right:50px;">
