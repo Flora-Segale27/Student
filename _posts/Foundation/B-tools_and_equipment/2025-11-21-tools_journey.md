@@ -14,11 +14,11 @@ permalink: /tools/journey
 𝙳𝚞𝚛𝚒𝚗𝚐 𝚝𝚑𝚒𝚜 𝚜𝚝𝚎𝚙, 𝙸 𝚕𝚎𝚊𝚛𝚗𝚎𝚍 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚖𝚢 𝚗𝚎𝚠𝚕𝚢-𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝙶𝚒𝚝𝙷𝚞𝚋 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚝𝚘 𝚕𝚘𝚐 𝚒𝚗𝚝𝚘 𝙶𝚒𝚝𝙷𝚞𝚋 𝚊𝚗𝚍 𝙾𝚙𝚎𝚗 𝙲𝚘𝚍𝚒𝚗𝚐 𝚂𝚘𝚌𝚒𝚎𝚝𝚢 𝚊𝚗𝚍 𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚕𝚘𝚘𝚔𝚒𝚗𝚐 𝚞𝚙 𝚎𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐 𝚊𝚋𝚘𝚞𝚝 𝚌𝚘𝚖𝚖𝚒𝚝𝚜 𝚊𝚗𝚍 𝚝𝚑𝚎 𝚘𝚝𝚑𝚎𝚛 𝚙𝚊𝚛𝚝𝚜 𝚘𝚏 𝙶𝚒𝚝𝙷𝚞𝚋.
 
 𝙼𝚢 𝙾𝚙𝚎𝚗 𝙲𝚘𝚍𝚒𝚗𝚐 𝚂𝚘𝚌𝚒𝚎𝚝𝚢 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚍𝚎𝚝𝚊𝚒𝚕𝚜:
-<img src="{{site.baseurl}}/images/about/opencs_acc_details.png" >
+<img src="{{site.baseurl}}/images/tools journey/opencs_acc_details.png" >
 𝙼𝚢 𝙶𝚒𝚝𝙷𝚞𝚋 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚍𝚎𝚝𝚊𝚒𝚕𝚜:
-<img src="{{site.baseurl}}/images/about/github_acc_details.png" >
+<img src="{{site.baseurl}}/images/tools journey/github_acc_details.png" >
 𝙼𝚢 𝚏𝚒𝚛𝚜𝚝 𝚌𝚘𝚖𝚖𝚒𝚝: 
-<img src="{{site.baseurl}}/images/about/initial_commit_action.png" >
+<img src="{{site.baseurl}}/images/tools journey/initial_commit_action.png" >
 
 ## 𝟷𝟷/𝟷𝟹/𝟸𝟻 - 𝙳𝚊𝚢 𝚃𝚠𝚘
 
@@ -29,11 +29,11 @@ permalink: /tools/journey
 𝙳𝚘𝚗'𝚝 𝚠𝚘𝚛𝚛𝚢 𝚝𝚑𝚘𝚞𝚐𝚑! 𝙰 𝚍𝚊𝚢 𝚕𝚊𝚝𝚎𝚛, 𝙸 𝚏𝚒𝚐𝚞𝚛𝚎𝚍 𝚘𝚞𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚋𝚕𝚎𝚖 𝚊𝚗𝚍 𝚏𝚒𝚡𝚎𝚍 𝚒𝚝 𝚠𝚒𝚝𝚑 𝚝𝚑𝚎 𝚑𝚎𝚕𝚙 𝚘𝚏 𝙰𝚗𝚞𝚜𝚑𝚊.
 
 𝙽𝚊𝚖𝚎 𝚌𝚑𝚊𝚗𝚐𝚎𝚍: 
-<img src="{{site.baseurl}}/images/about/first_change_in_vscode.dev.png" >
+<img src="{{site.baseurl}}/images/tools journey/first_change_in_vscode.dev.png" >
 𝚂𝚎𝚌𝚘𝚗𝚍 𝚌𝚘𝚖𝚖𝚒𝚝𝚎𝚍 𝚊𝚌𝚝𝚒𝚘𝚗:
-<img src="{{site.baseurl}}/images/about/second_commited_action.png" >
+<img src="{{site.baseurl}}/images/tools journey/second_commited_action.png" >
 𝚃𝚑𝚎 𝚠𝚛𝚘𝚗𝚐 𝚜𝚒𝚝𝚎:
-<img src="{{site.baseurl}}/images/about/wrong_opencs_page.png" >
+<img src="{{site.baseurl}}/images/tools journey/wrong_opencs_page.png" >
 
 ## 𝟷𝟷/𝟷𝟺/𝟸𝟻 - 𝙳𝚊𝚢 𝚃𝚑𝚛𝚎𝚎
 
@@ -55,20 +55,20 @@ permalink: /tools/journey
 - 𝚝𝚑𝚎 𝚞𝚛𝚕 𝚠𝚊𝚜 𝙼𝚛. 𝙼𝚘𝚛𝚝𝚎𝚗𝚜𝚎𝚗𝚜' 𝚒𝚗𝚜𝚝𝚎𝚊𝚍 𝚘𝚏 𝚖𝚢 𝚘𝚠𝚗 𝚛𝚎𝚙𝚘𝚜𝚒𝚝𝚘𝚛𝚢, 𝚎𝚟𝚎𝚗 𝚝𝚑𝚘𝚞𝚐𝚑 𝙸 𝚝𝚑𝚘𝚞𝚐𝚑𝚝 𝙸 𝚞𝚜𝚎𝚍 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝 𝚘𝚗𝚎
 - 𝚊 𝚝𝚘𝚘𝚕 𝚝𝚑𝚊𝚝 𝚠𝚊𝚜 𝚗𝚎𝚎𝚍𝚎𝚍 𝚝𝚘 𝚛𝚞𝚗 𝚖𝚊𝚔𝚎 𝚠𝚊𝚜 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚍 𝚏𝚘𝚛 𝚝𝚑𝚎 𝚏𝚒𝚛𝚜𝚝 𝚝𝚒𝚖𝚎 
 
-<img src="{{site.baseurl}}/images/about/uninstalled_wsl.png" >
+<img src="{{site.baseurl}}/images/tools journey/uninstalled_wsl.png" >
 
-<img src="{{site.baseurl}}/images/about/problems_in_abt.md_file.png" >
+<img src="{{site.baseurl}}/images/tools journey/problems_in_abt.md_file.png" >
 
 𝙻𝚊𝚝𝚎𝚛 𝚒𝚗 𝚝𝚑𝚎 𝚊𝚏𝚝𝚎𝚛𝚗𝚘𝚘𝚗, 𝙸 𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 𝚘𝚗 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎 𝚊𝚐𝚊𝚒𝚗 - 𝙸 𝚕𝚘𝚘𝚔𝚎𝚍 𝚒𝚗𝚝𝚘 𝚊𝚕𝚕 𝚘𝚏 𝚝𝚑𝚎 𝚒𝚜𝚜𝚞𝚎𝚜 𝚊𝚗𝚍 𝚛𝚎𝚊𝚍 𝚖𝚘𝚛𝚎 𝚊𝚋𝚘𝚞𝚝 𝚝𝚑𝚎 [𝚊𝚛𝚝𝚒𝚌𝚕𝚎𝚜](https://github.com/DavidAnson/markdownlint/blob/v0.38.0/doc/md033.md), 𝚠𝚑𝚒𝚌𝚑 𝚕𝚎𝚍 𝚖𝚎 𝚝𝚘 𝚍𝚒𝚜𝚌𝚘𝚟𝚎𝚛 𝚝𝚑𝚊𝚝 𝚝𝚑𝚎 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚜 𝚠𝚎𝚛𝚎 𝚙𝚘𝚙𝚙𝚒𝚗𝚐 𝚞𝚙 𝚍𝚞𝚎 𝚝𝚘 𝚖𝚊𝚛𝚔𝚍𝚘𝚠𝚗 𝚒𝚜𝚜𝚞𝚎𝚜. 𝚃𝚑𝚎 𝚌𝚘𝚍𝚎 𝚠𝚊𝚜𝚗'𝚝 𝚠𝚛𝚒𝚝𝚝𝚎𝚗 𝚒𝚗 𝚝𝚑𝚎 𝚌𝚘𝚛𝚛𝚎𝚌𝚝 𝚖𝚊𝚛𝚔𝚍𝚘𝚠𝚗, 𝚠𝚑𝚒𝚌𝚑 𝚠𝚊𝚜 𝚖𝚊𝚔𝚒𝚗𝚐 𝚝𝚑𝚎 𝚑𝚝𝚖𝚕 𝚊𝚌𝚝 𝚞𝚙. 𝙵𝚘𝚛𝚝𝚞𝚗𝚊𝚝𝚎𝚕𝚢, 𝚠𝚑𝚎𝚗 𝙸 𝚜𝚙𝚘𝚔𝚎 𝚝𝚘 𝙼𝚛. 𝙼𝚘𝚛𝚝𝚎𝚗𝚜𝚎𝚗, 𝚑𝚎 𝚝𝚘𝚕𝚍 𝚖𝚎 𝚝𝚑𝚊𝚝 𝚝𝚑𝚎𝚢 𝚠𝚎𝚛𝚎𝚗'𝚝 𝚊 𝚙𝚛𝚘𝚋𝚕𝚎𝚖𝚜 𝚝𝚑𝚒𝚜 𝚏𝚊𝚛 𝚒𝚗𝚝𝚘 𝚝𝚑𝚎 𝚌𝚘𝚍𝚎, 𝚜𝚘 𝙸 𝚍𝚒𝚍𝚗'𝚝 𝚑𝚊𝚟𝚎 𝚝𝚘 𝚠𝚘𝚛𝚛𝚢 𝚊𝚋𝚘𝚞𝚝 𝚒𝚝.
 
 𝚃𝚑𝚒𝚜 𝚠𝚊𝚜 𝚊𝚕𝚜𝚘 𝚠𝚑𝚎𝚗 𝙸 𝚏𝚘𝚞𝚗𝚍 𝚘𝚞𝚝 𝚝𝚑𝚊𝚝 𝙸 𝚠𝚊𝚜 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚛𝚘𝚗𝚐 𝚝𝚎𝚛𝚖𝚒𝚗𝚊𝚕 𝚝𝚘 𝚎𝚡𝚎𝚌𝚞𝚝𝚎 𝚖𝚢 𝚌𝚘𝚍𝚎 - 𝙸 𝚠𝚊𝚜 𝚐𝚘𝚒𝚗𝚐 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚝𝚑𝚎 𝚍𝚎𝚏𝚊𝚞𝚕𝚝 𝚋𝚛𝚘𝚠𝚜𝚎𝚛, 𝚠𝚑𝚒𝚌𝚑 𝚠𝚊𝚜 𝚌𝚊𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚎 𝚠𝚛𝚘𝚗𝚐 modules 𝚝𝚘 𝚋𝚎 𝚏𝚎𝚝𝚌𝚑𝚎𝚍 𝚊𝚗𝚍 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚍, 𝚘𝚛 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝 𝚎𝚡𝚝𝚎𝚗𝚜𝚒𝚘𝚗𝚜 𝚠𝚎𝚛𝚎𝚗'𝚝 𝚜𝚑𝚘𝚠𝚒𝚗𝚐 𝚞𝚙. 𝙰𝚏𝚝𝚎𝚛 𝙼𝚛. 𝙼𝚘𝚛𝚝𝚎𝚗𝚜𝚎𝚗 𝚜𝚑𝚘𝚠𝚎𝚍 𝚖𝚎 𝚑𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚝𝚘 𝚝𝚑𝚎 𝚄𝚋𝚞𝚗𝚝𝚞 𝚝𝚎𝚛𝚖𝚒𝚗𝚊𝚕, 𝚎𝚟𝚎𝚛𝚢𝚝𝚑𝚒𝚗𝚐 𝚠𝚘𝚛𝚔𝚎𝚍 𝚖𝚞𝚌𝚑 𝚜𝚖𝚘𝚘𝚝𝚑𝚎𝚛 𝚊𝚗𝚍 "𝚗𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝", 𝚠𝚑𝚒𝚌𝚑 𝚠𝚊𝚜 𝚝𝚑𝚎 𝚛𝚎𝚊𝚜𝚘𝚗 𝚠𝚑𝚢 "𝚖𝚊𝚔𝚎" 𝚠𝚊𝚜𝚗'𝚝 𝚛𝚞𝚗𝚗𝚒𝚗𝚐, 𝚠𝚊𝚜 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚍 𝚒𝚗 𝚝𝚑𝚎 𝚟𝚜𝚌𝚘𝚍𝚎 𝚝𝚎𝚛𝚖𝚒𝚗𝚊𝚕, 𝚜𝚘 𝙸 𝚌𝚘𝚞𝚕𝚍 𝚏𝚒𝚗𝚊𝚕𝚕𝚢 𝚛𝚞𝚗 𝚖𝚊𝚔𝚎!
 
 𝙽𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝 not 𝚏𝚘𝚞𝚗𝚍 :(
-<img src="{{site.baseurl}}/images/about/nbconvert_not_found.png" >
+<img src="{{site.baseurl}}/images/tools journey/nbconvert_not_found.png" >
 𝙽𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝 𝚏𝚘𝚞𝚗𝚍!
-<img src=" {{site.baseurl}}/images/about/ubuntu_terminal.png" >
+<img src=" {{site.baseurl}}/images/tools journey/ubuntu_terminal.png" >
 𝙽𝚋𝚌𝚘𝚗𝚟𝚎𝚛𝚝 𝚏𝚒𝚡𝚎𝚍!
-<img src="{{site.baseurl}}/images/about/nbconvert_found.png" >
+<img src="{{site.baseurl}}/images/tools journey/nbconvert_found.png" >
 
 ## 𝟷𝟷/𝟸𝟷/𝟸𝟻 - 𝙳𝚊𝚢 𝙴𝚒𝚐𝚑𝚝
 
@@ -78,4 +78,4 @@ permalink: /tools/journey
 
 𝚃𝚑𝚊𝚗𝚔𝚜 𝚏𝚘𝚛 𝚛𝚎𝚊𝚍𝚒𝚗𝚐! :𝙳
 
-<img src="{{site.baseurl}}/images/about/happy_face.png" >
+<img src="{{site.baseurl}}/images/tools journey/happy_face.png" >
