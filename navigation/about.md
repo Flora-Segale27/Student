@@ -88,10 +88,10 @@ Here are some places I have lived.
 </script> -->
 
 <div class="row">
-<img src="{{site.baseurl}}/images/about/cali flag.png"> <style="height:100px; margin-right:50px;">
-<img src="{{site.baseurl}}/images/about/minnesota flag.png"> <style="height:100px; margin-right:50px;">
-<img src="{{site.baseurl}}/images/about/italian flag.png"> <style="height:100px; margin-right:50px;">
-<img src="{{site.baseurl}}/images/about/puglia flag.png"> <style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/cali flag.png" style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/italian flag.png" style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:50px;">
 </div>
 
 ### Journey through Life
