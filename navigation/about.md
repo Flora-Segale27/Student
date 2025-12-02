@@ -88,10 +88,10 @@ Here are some places I have visited/have family.
 </script> -->
 
 <div class="row">
-<img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:75px;" alt="Minnesota">
-<img src="{{site.baseurl}}/images/about/og flag.png" style="height:100px; margin-right:75px;" alt="Orange County">
-<img src="{{site.baseurl}}/images/about/san diego flag.png" style="height:100px; margin-right:75px;" alt="San Diego">
-<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:75px;" alt="Puglia">
+<img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:50px;" alt="Minnesota">
+<img src="{{site.baseurl}}/images/about/og flag.png" style="height:100px; margin-right:50px;" alt="Orange County">
+<img src="{{site.baseurl}}/images/about/san diego flag.png" style="height:100px; margin-right:50px;" alt="San Diego">
+<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:50px;" alt="Puglia">
 </div>
 
 ⭐ **Minnesota** - My dad and I were both born in Minnesota! Once I was born in St. Paul, Minnesota's capital, I stayed there until I was 18 months old, and then my family moved to Irvine, California.
