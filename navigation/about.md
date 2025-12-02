@@ -5,7 +5,7 @@ permalink: /about/
 comments: true
 ---
 
-## Intro:
+### Intro:
 
 Here are some places I have visited/have family.
 
@@ -88,11 +88,16 @@ Here are some places I have visited/have family.
 </script> -->
 
 <div class="row">
-<img src="{{site.baseurl}}/images/about/cali flag.png" style="height:100px; margin-right:50px;" alt="California (2018-Present)">
-<img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:50px;" alt="My dad and I were both born in Minnesota and I lived in St. Paul for the first 18 months of my life">
-<img src="{{site.baseurl}}/images/about/italian flag.png" style="height:100px; margin-right:50px;" alt="My mom was born in Italy and we visit every summer!">
-<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:50px;" alt="My mom was born in a region of Italy called Puglia. This is its flag :)">
+<img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:75px;" alt="Minnesota">
+<img src="{{site.baseurl}}/images/about/og flag.png" style="height:100px; margin-right:75px;" alt="Orange County">
+<img src="{{site.baseurl}}/images/about/san diego flag.png" style="height:100px; margin-right:75px;" alt="San Diego">
+<img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:75px;" alt="Puglia">
 </div>
+
+⭐ **Minnesota** - My dad and I were both born in Minnesota! Once I was born in St. Paul, Minnesota's capital, I stayed there until I was 18 months old, and then my family moved to Irvine, California.
+⭐ **Orange County** - I lived in Irvine and attended Woodbury ELementary until I was 7 years old, then I moved to...
+⭐ **San Diego** and have lived here since then!
+⭐ **Puglia/Italy** My mom was born in Italy, specifically, Puglia, which is one of the south-east regions of Italy. We go back every summer to visit my family there.
 
 ### Journey through Life
 
