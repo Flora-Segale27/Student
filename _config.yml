@@ -20,6 +20,7 @@ owner_name: Flora Segale
 github_username: Flora-Segale27
 github_repo: "Student" 
 baseurl: "/Student" 
+url: "https://Flora-Segale27.io/Student"
 future: true
 
 # Build settings
