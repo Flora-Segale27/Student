@@ -94,10 +94,10 @@ Here are some places I have visited/have family.
 <img src="{{site.baseurl}}/images/about/puglia flag.png" style="height:100px; margin-right:50px;" alt="Puglia">
 </div>
 
-⭐ **Minnesota** - My dad and I were both born in Minnesota! Once I was born in St. Paul, Minnesota's capital, I stayed there until I was 18 months old, and then my family moved to Irvine, California.
-⭐ **Orange County** - I lived in Irvine and attended Woodbury ELementary until I was 7 years old, then I moved to...
-⭐ **San Diego** and have lived here since then!
-⭐ **Puglia/Italy** My mom was born in Italy, specifically, Puglia, which is one of the south-east regions of Italy. We go back every summer to visit my family there.
+- ⭐ **Minnesota** - My dad and I were both born in Minnesota! Once I was born in St. Paul, Minnesota's capital, I stayed there until I was 18 months old, and then my family moved to Irvine, California.
+- ⭐ **Orange County** - I lived in Irvine and attended Woodbury ELementary until I was 7 years old, then I moved to...
+- ⭐ **San Diego** and have lived here since then!
+- ⭐ **Puglia/Italy** My mom was born in Italy, specifically, Puglia, which is one of the south-east regions of Italy. We go back every summer to visit my family there.
 
 ### Journey through Life
 
