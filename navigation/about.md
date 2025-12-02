@@ -118,7 +118,7 @@ My family consists of my mom, dad, and my baby brother.
 <div class="image-gallery">
     <img src="{{site.baseurl}}/images/about/anthony_selfie.png" alt="Anthony selfie">
     <img src="{{site.baseurl}}/images/about/baylee_pic.png" alt="Baylee">
-    <img src="{{site.baseurl}}/images/about/d2_fynch.png" alt="D2 Fynch">
+    <img src="{{site.baseurl}}/images/about/d2_fynch.png" alt="Destiny 2 Character">
     <img src="{{site.baseurl}}/images/about/hoco_pic_w_girls.png" alt="Homecoming with friends">
     <img src="{{site.baseurl}}/images/about/last_race_group_pic.png" alt="Last race group">
     <img src="{{site.baseurl}}/images/about/scarlette.png" alt="Scarlette">
