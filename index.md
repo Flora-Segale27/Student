@@ -33,17 +33,17 @@ Hi! My name is Flora.
 > Here is my progress through coding! Click to see these online:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" style="text-decoration: underline overline;">
+    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
         <div style="background-color: #066606ff; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game! 🐍
         </div>
     </a>
-    <a href="{{site.baseurl}}/turtle" style="text-decoration: inherit;">
+    <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
         <div style="background-color: #750101ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle! 🐢
         </div>
     </a>
-    <a href="{{site.baseurl}}/custompong" style="text-decoration: overline;">
+    <a href="{{site.baseurl}}/custompong" style="text-decoration: none;">
         <div style="background-color: #792cd8ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Play Pong! 🏓
         </div>
