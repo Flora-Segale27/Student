@@ -30,26 +30,24 @@ Hi! My name is Flora.
 
 ### Class Progress
 
-> Here is my progress through coding, click to see these online
+> Here is my progress through coding! Click to see these online:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
         <div style="background-color: #00FF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Snake Game
+            Snake Game! 🐍
         </div>
     </a>
     <a href="{{site.baseurl}}/turtle" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Turtle
+            Turtle! 🐢
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/custompong" style="text-decoration: none;">
+        <div style="background-color: #792cd8ff; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Play Pong! 🏓
         </div>
     </a>
 </div>
 
 <br>
-
-<!-- Contact Section -->
-### Get in Touch
-
-> Feel free to reach out if you'd like to collaborate or learn more about our work.
-
-<p style="color: #2A7DB1;">Open Coding Society: <a href="https://opencodingsociety.com" style="color: #2A7DB1; text-decoration: underline;">Socials</a></p>
