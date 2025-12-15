@@ -47,6 +47,7 @@ Hi! My name is Flora.
         <div style="background-color: #d87c2cff; color: #291809ff; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Memory Game! 🃏
         </div>
+    </a>
 </div>
 
 <br>
