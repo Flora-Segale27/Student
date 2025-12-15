@@ -22,6 +22,13 @@ permalink: /javascript/project/memory
 <p>Score: <span class="score"></span></p>
 <p>Attempts: <span class="attempts"></span></p>
 <p>High score: <span class="highscore"></span> <button class="resetHigh">Reset</button></p>
+<p>Time: <span class="time">0.00</span> s</p>
+<p>Best time: <span class="besttime">--</span> s <button class="resetBest">Reset</button></p>
+<div class="leaderboardContainer">
+    <h3>Leaderboard (Top 10)</h3>
+    <ol class="leaderboard"></ol>
+    <button class="resetLeaderboard">Reset Leaderboard</button>
+</div>
 <div class="container">
     <canvas class="memoryCanvas" id="memoryCanvas" width="600" height="400"></canvas>
 </div>
@@ -38,6 +45,9 @@ permalink: /javascript/project/memory
     const scoreDisplay = document.querySelector('.score');
     const attemptsDisplay = document.querySelector('.attempts');
     const highScoreDisplay = document.querySelector('.highscore');
+    const timeDisplay = document.querySelector('.time');
+    const bestTimeDisplay = document.querySelector('.besttime');
+    const leaderboardList = document.querySelector('.leaderboard');
     let score = 0; // Player's score
     let attempts = 0; // Number of attempts made
     // Load high score from localStorage (safe fallback)
@@ -50,6 +60,44 @@ permalink: /javascript/project/memory
         highScore = 0;
     }
     highScoreDisplay.textContent = highScore;
+    // Timer state
+    let startTime = null;
+    let timerInterval = null;
+    let bestTime = null;
+    try {
+        const storedBest = localStorage.getItem('memoryBestTime');
+        bestTime = storedBest !== null ? Number.parseFloat(storedBest) : null;
+        if (bestTime !== null && Number.isNaN(bestTime)) bestTime = null;
+    } catch (e) { bestTime = null; }
+    bestTimeDisplay.textContent = bestTime !== null ? bestTime.toFixed(2) : '--';
+    // Render leaderboard (top 10 times, with name and date)
+    function renderLeaderboard() {
+        try {
+            const raw = JSON.parse(localStorage.getItem('memoryLeaderboard') || '[]');
+            // Normalize entries to objects {time, name, date}
+            const list = (Array.isArray(raw) ? raw : []).map(item => {
+                if (typeof item === 'number') return {time: item, name: '---', date: null};
+                if (item && typeof item === 'object') return {time: Number(item.time), name: item.name || '---', date: item.date || null};
+                return null;
+            }).filter(Boolean).sort((a, b) => a.time - b.time);
+
+            leaderboardList.innerHTML = '';
+            if (list.length === 0) {
+                leaderboardList.innerHTML = '<li>No records</li>';
+                return;
+            }
+            for (let i = 0; i < Math.min(10, list.length); i++) {
+                const entry = list[i];
+                const li = document.createElement('li');
+                const datePart = entry.date ? (' - ' + entry.date) : '';
+                li.textContent = (entry.name || '---') + ' - ' + entry.time.toFixed(2) + ' s' + datePart;
+                leaderboardList.appendChild(li);
+            }
+        } catch (e) {
+            leaderboardList.innerHTML = '<li>Error loading</li>';
+        }
+    }
+    renderLeaderboard();
     scoreDisplay.textContent = score;
     attemptsDisplay.textContent = attempts;
 
@@ -100,13 +148,13 @@ permalink: /javascript/project/memory
         }
     }
 
-    drawGrid(4, 4); // Draw the grid
+    drawGrid(5, 5); // Draw the grid
 
     // Prepare emoji pairs and shuffle
     const baseEmojis = [
-        "⚜️", "🎉", "🏵️", "🌺", "🌟", "🪉", "☀️", "🦄"
+        "⚜️", "🎉", "🏵️", "🌺", "🌟", "🪉", "☀️", "🦄", "💝", "💥"
     ];
-    // Duplicate emojis for pairs (16 cells, 8 pairs)
+    // Duplicate emojis for pairs (20 cells, 10 pairs)
     const emojiList = [...baseEmojis, ...baseEmojis];
 
     // Shuffle the emoji list so pairs are random
@@ -134,7 +182,7 @@ permalink: /javascript/project/memory
         }
     }
     // Show all emojis for 3 seconds, then hide them
-    setTimeout(() => hideEmojis(4, 4), 3000);
+    setTimeout(() => hideEmojis(5, 5), 3000);
 
     // Reveals the emoji at a specific cell
     function revealEmojiAt(col, row, emojis) {
@@ -184,6 +232,15 @@ permalink: /javascript/project/memory
         revealedCells.push({col, row, emoji, emojiIndex});
         clicks += 1;
 
+        // Start timer on first valid click
+        if (startTime === null) {
+            startTime = Date.now();
+            timerInterval = setInterval(() => {
+                const elapsed = (Date.now() - startTime) / 1000;
+                timeDisplay.textContent = elapsed.toFixed(2);
+            }, 100);
+        }
+
         // If two emojis are revealed, check for a match
         if (revealedCells.length === 2) {
             attempts += 1;
@@ -211,8 +268,35 @@ permalink: /javascript/project/memory
             }
         }
         if(score == 8) {
-            alert("Congratulations! You've matched all pairs!");
-            // refresh page
+            // Stop timer and handle best time
+            if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+            const finalTime = startTime ? (Date.now() - startTime) / 1000 : 0;
+            timeDisplay.textContent = finalTime.toFixed(2);
+            if (bestTime === null || finalTime < bestTime) {
+                bestTime = finalTime;
+                try { localStorage.setItem('memoryBestTime', String(bestTime)); } catch (e) {}
+                bestTimeDisplay.textContent = bestTime.toFixed(2);
+            }
+            // Ask for player initials/name (1-10 chars)
+            let playerName = '';
+            try {
+                const raw = prompt('You set a top time! Enter your name/initials (1-10 chars):', '');
+                if (raw !== null) playerName = raw.trim().substring(0, 10);
+            } catch (e) { playerName = ''; }
+            if (!playerName) playerName = '---';
+            const dateStr = new Date().toLocaleDateString();
+            // Update leaderboard (store objects {time, name, date}) and keep top 10
+            try {
+                let lb = JSON.parse(localStorage.getItem('memoryLeaderboard') || '[]');
+                if (!Array.isArray(lb)) lb = [];
+                lb.push({time: finalTime, name: playerName, date: dateStr});
+                lb.sort((a, b) => Number(a.time) - Number(b.time));
+                while (lb.length > 10) lb.pop();
+                localStorage.setItem('memoryLeaderboard', JSON.stringify(lb));
+            } catch (e) {}
+            renderLeaderboard();
+            alert("Congratulations! You've matched all pairs! Time: " + finalTime.toFixed(2) + "s");
+            // reload to restart the game
             location.reload();
         }
     });
@@ -225,5 +309,23 @@ permalink: /javascript/project/memory
         try { localStorage.removeItem('memoryHighScore'); } catch (e) {}
         highScore = 0;
         highScoreDisplay.textContent = 0;
+    });
+
+    // Reset best time handler
+    document.querySelector('.resetBest').addEventListener('click', () => {
+        try { localStorage.removeItem('memoryBestTime'); } catch (e) {}
+        bestTime = null;
+        bestTimeDisplay.textContent = '--';
+    });
+
+    // Reset leaderboard handler
+    document.querySelector('.resetLeaderboard').addEventListener('click', () => {
+        try { localStorage.removeItem('memoryLeaderboard'); } catch (e) {}
+        renderLeaderboard();
+    });
+
+    // Helper: clear any running timer when reloading or navigating away
+    window.addEventListener('beforeunload', () => {
+        if (timerInterval) clearInterval(timerInterval);
     });
 </script>
