@@ -43,8 +43,10 @@ Hi! My name is Flora.
             Play Pong! 🏓
         </div>
     </a>
-    <a href="{{site.baseurl}}/javascript/project/memory" style="text-decoration: none; background-color: #d87c2cff; color: #291809ff; padding: 10px 20px; border-radius: 5px; font-weight: bold; display: inline-block;">
+    <a href="{{site.baseurl}}/javascript/project/memory" style="text-decoration: none;">
+        <div style="background-color: #d87c2cff; color: #291809ff; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
         Memory Game! 🃏
+        </div>
     </a>
 </div>
 
