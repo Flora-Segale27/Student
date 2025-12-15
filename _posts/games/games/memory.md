@@ -34,6 +34,16 @@ permalink: /javascript/project/memory
 </div>
 
 <script>
+if (window.trustedTypes && !trustedTypes.createPolicy('default')) {
+  trustedTypes.createPolicy('default', {
+    createHTML: s => s,
+    createScript: s => s,
+    createScriptURL: s => s
+  });
+}
+</script>
+
+<script>
     // Get canvas and context for drawing
     const memCanvas = document.getElementById('memoryCanvas');
     const memCtx = memCanvas.getContext('2d');
