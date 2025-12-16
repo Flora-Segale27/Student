@@ -11,8 +11,6 @@ permalink: /debuggingprocess
 
 When debugging JavaScript code, follow this flowchart to systematically identify and fix common issues. Use console logs to trace the execution and values of variables at key points in your code.
 
-```mermaid
-
 flowchart TD
     A[Start Debugging] --> B{Console Output?}
     B -->|Red Error| C[Fix syntax or reference error]
@@ -28,15 +26,3 @@ flowchart TD
     K -->|Yes| M[Refresh & Reset]
     M --> N[Bug fixed! 🎉]
 
-# **How drawGrid does things**
-
-```mermaid
-
-flowchart TD
-    A[Start drawGrid(cols, rows)] --> B[Calculate cellWidth = canvas.width / cols]
-    B --> C[Calculate cellHeight = canvas.height / rows]
-    C --> D[Outer loop: for each row]
-    D --> E[Inner loop: for each col]
-    E --> F[Draw strokeRect at (col * cellWidth, row * cellHeight)]
-    F --> G[Repeat until all cells drawn]
-    G --> H[Grid complete 🎉]
