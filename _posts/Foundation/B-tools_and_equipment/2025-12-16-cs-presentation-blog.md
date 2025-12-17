@@ -8,13 +8,98 @@ permalink: /cs-presentation-notes
 ---
 
 ## Notes: 
-- inspo: wanting to create things, being in tech, creating a useful foundation for making a business, wanting to break down things, and achieveing it as a creative, 
-- extracurriculars and classes taken: (college level work - AP classes; writing skills; critical thinking), communication skills, translating comlex concepts, all CS classes, 
-- breaking down things? learned in HS?: breaking down large goal into self-goals, setting deadlines and time goals, will learn in HS, breaking down large projects into smaller parts, assigning parts to team members, communication again and break it down, critical thinking very important, key: taking it down to smallest piece - slice that watermellon, using github issues and creating timelines.
-- coming up for project ideas: sustainable environments: creating a solution for writers to put ideas on paper, have to have a mindset of putting the users first. internship: interests, making a list while existing, digital scrapbook: image clusters, photos, how to use geolocation and geotaging to make a place for people to post. application: developer finder - modualizig pieces, coordination: synthesizing data for communication, customer feedback and testing. understandig what people need.
-- college app and essays: personal experiences and what was learned from school. impact: made a nonprofit that taught about CS. collaboration: cs program, ambassador program, curiousity - learning things and looking to explore. what make you passionate about the subject and personal learning experiences, being vunerable, being different.
-- most valuable classes taken at DNHS: stem classes: critical thinging and collaboration, time management. learning grit and perserverance, makes you more used to the rigor and workload of college, public speaking communication skills to express ideas clearly. take advanage of speaking oppertunities. appreciating flexibility and planning, and how to manage everything. learning how to correctly prompt AI's and learning how to work on your own and figuring things out yourself and using resources.
-- communication?: very important to talk through code with others, prof's talk about meaningful comments and commit messages through code, *very important* to be able to speak through your code with others. communiation is key, others won't hear about your work if you don't speak to others about it. Making diagrams, anagrams, and other flowcharts in classes. documenting things that were learned and communicate the results with others that way they can rememeber it, keeping in mind to what the users need and what they need it for instead of jumping into the code right away. Have to work through the problems and communicating it with others at the same time (talking abt code as it's written), translating experiences into something others can understand.
-- methodoligies (Agile, Scrum)?: not learned or practiced yet in college. experienced Agile and Scrum meetings, sessions, learned about Agile Manifestos. used Agile for software engineering class, none else, scrum adjacent in classes too. a bit messy in a project until agile and scrum were implemented. 
-- final advice: stay up to date, do a lot of research, use many different tools, be as diverse as possible, using AI's well, stay involved. Read the news, stay relaxed, enjoy the process, and be less stressed and have fun and learn new things before your time is over. Look closer at what courses are being offered (project vs lecture) appreciate projects, look at other courses and extraxurriculars outide of your major and explore other clubs and activities. go to more events and network with others there so you can expand connections and talk to others in the field that want to help you. Be in the moment. Put in the work now to reap the benefits later.
-## Key Takeaways:
+Got it — thanks for clarifying! Since these notes came from a **computer science panel**, I’ll keep the original phrasing and detail intact, but organize them into sections so they’re easier to follow. I’ll preserve the descriptive style rather than condensing too much.  
+
+---
+
+# 🖥️ Computer Science Panel Notes
+
+### Inspiration
+- Wanting to **create things** and be in tech.  
+- Building a **useful foundation for making a business**.  
+- Desire to **break down things** and achieve goals as a creative.  
+
+### Extracurriculars & Classes Taken
+- College-level work: **AP classes**.  
+- Writing skills and critical thinking.  
+- Communication skills, translating complex concepts.  
+- All CS classes taken.  
+
+### Breaking Down Things (Learned in HS)
+- Breaking down large goals into **self-goals**.  
+- Setting deadlines and time goals.  
+- Breaking down large projects into smaller parts.  
+- Assigning parts to team members.  
+- Communication emphasized again.  
+- Critical thinking very important.  
+- Key: take it down to the smallest piece — *slice that watermelon*.  
+- Using **GitHub issues** and creating timelines.  
+
+### Coming Up with Project Ideas
+- **Sustainable environments:** creating solutions for writers to put ideas on paper.  
+- Internship interests: making lists, digital scrapbook with image clusters and geotagging.  
+- Application ideas: developer finder, modularizing pieces.  
+- Coordination: synthesizing data for communication.  
+- Customer feedback and testing.  
+- Understanding what people need.  
+
+### College Applications & Essays
+- Focus on **personal experiences** and lessons learned from school.  
+- Impact: made a nonprofit that taught CS.  
+- Collaboration: CS program, ambassador program.  
+- Curiosity: learning and exploring.  
+- Show passion for the subject and personal learning experiences.  
+- Be vulnerable, be different.  
+
+### Most Valuable Classes at DNHS
+- STEM classes: critical thinking, collaboration, time management.  
+- Learned grit and perseverance.  
+- Prepared for rigor and workload of college.  
+- Public speaking and communication skills to express ideas clearly.  
+- Take advantage of speaking opportunities.  
+- Appreciating flexibility and planning.  
+- Managing everything effectively.  
+- Learning how to correctly prompt AI.  
+- Working independently and using resources.  
+
+### Communication
+- Very important to **talk through code** with others.  
+- Professors emphasize meaningful comments and commit messages.  
+- Communication is key: others won’t know about your work if you don’t share it.  
+- Making diagrams, anagrams, and flowcharts in classes.  
+- Documenting what was learned and communicating results so others can remember.  
+- Keep in mind what users need before jumping into code.  
+- Work through problems while communicating at the same time.  
+- Translate experiences into something others can understand.  
+
+### Methodologies (Agile, Scrum)
+- Not learned or practiced yet in college.  
+- Experienced Agile and Scrum meetings/sessions.  
+- Learned about Agile Manifestos.  
+- Used Agile in software engineering class.  
+- Scrum-adjacent practices in classes.  
+- Projects were messy until Agile/Scrum were implemented.  
+
+### Final Advice
+- Stay up to date, do research, use many tools.  
+- Be diverse, use AI well.  
+- Read the news, stay relaxed, enjoy the process.  
+- Be less stressed, have fun, learn new things before your time is over.  
+- Look closely at courses offered (project vs lecture).  
+- Appreciate project-based courses.  
+- Explore extracurriculars outside your major.  
+- Go to events, network, expand connections, talk to others in the field.  
+- Be in the moment.  
+- Put in the work now to reap benefits later.  
+
+✅ **Key Takeaways (from the panel overall):**  
+- Creativity and problem-solving are central to CS.  
+- Communication is just as important as technical skill.  
+- Breaking down projects into small, manageable pieces is essential.  
+- College and career success come from curiosity, resilience, and networking.  
+- Balance rigor with enjoyment — stay present and explore widely.  
+
+<div class="row">
+<img src="{{site.baserul}}/images/about/cs_panel/first-selfie.png">
+<img src="{{site.baserul}}/images/about/cs_panel/end-selfie.png">
+</div>
