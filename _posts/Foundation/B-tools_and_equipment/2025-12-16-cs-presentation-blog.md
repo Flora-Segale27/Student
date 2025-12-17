@@ -7,11 +7,6 @@ author: Flora Segale
 permalink: /cs-presentation-notes
 ---
 
-## Notes: 
-Got it — thanks for clarifying! Since these notes came from a **computer science panel**, I’ll keep the original phrasing and detail intact, but organize them into sections so they’re easier to follow. I’ll preserve the descriptive style rather than condensing too much.  
-
----
-
 # 🖥️ Computer Science Panel Notes
 
 ### Inspiration
