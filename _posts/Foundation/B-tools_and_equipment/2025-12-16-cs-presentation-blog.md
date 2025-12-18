@@ -92,6 +92,6 @@ permalink: /cs-presentation-notes
 - Balance rigor with enjoyment — stay present and explore widely.  
 
 <div class="row">
-<img src="{{site.baseurl}}/images/cs_panel/first-selfie.png">
-<img src="{{site.baseurl}}/images/cs_panel/end-selfie.png">
+<img src="{{site.baseurl}}/images/cs_panel/first-selfie.png" style="height:100px; margin-right:50px;">
+<img src="{{site.baseurl}}/images/cs_panel/end-selfie.png" style="height:100px; margin-right:50px;">
 </div>
