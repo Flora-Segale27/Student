@@ -66,7 +66,6 @@ permalink: /cs-presentation-notes
 - Translate experiences into something others can understand.  
 
 ### Methodologies (Agile, Scrum)
-- Not learned or practiced yet in college.  
 - Experienced Agile and Scrum meetings/sessions.  
 - Learned about Agile Manifestos.  
 - Used Agile in software engineering class.  
