@@ -95,6 +95,6 @@ permalink: /cs-presentation-notes
 - Balance rigor with enjoyment — stay present and explore widely.  
 
 <div class="row">
-<img src="{{site.baserul}}/images/about/cs_panel/first-selfie.png">
-<img src="{{site.baserul}}/images/about/cs_panel/end-selfie.png">
+<img src="{{site.baserul}}/images/cs_panel/first-selfie.png">
+<img src="{{site.baserul}}/images/cs_panel/end-selfie.png">
 </div>
