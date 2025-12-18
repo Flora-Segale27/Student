@@ -7,8 +7,6 @@ author: Flora Segale
 permalink: /cs-presentation-notes
 ---
 
-# 🖥️ Computer Science Panel Notes
-
 ### Inspiration
 - Wanting to **create things** and be in tech.  
 - Building a **useful foundation for making a business**.  
@@ -95,6 +93,6 @@ permalink: /cs-presentation-notes
 - Balance rigor with enjoyment — stay present and explore widely.  
 
 <div class="row">
-<img src="{{site.baserul}}/images/cs_panel/first-selfie.png">
-<img src="{{site.baserul}}/images/cs_panel/end-selfie.png">
+<img src="{{site.baseurl}}/images/cs_panel/first-selfie.png">
+<img src="{{site.baseurl}}/images/cs_panel/end-selfie.png">
 </div>
