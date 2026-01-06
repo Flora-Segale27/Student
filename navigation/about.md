@@ -10,8 +10,10 @@ comments: true
 
 # And these are my favorite video games!!
 
-<script>
+<div id="grid_container"></div>
 
+<script>
+var outputElement = document.getElementById("grid_container");
 // Clear the output
 outputElement.innerHTML = '';
 
@@ -27,7 +29,7 @@ const video_games = [
   { img: "{{site.baseurl}}/images/about/shadow dynamic.webp", title: "Shadow of The Tomb Raider", note: "I have very vivid memories watching my dad play this as a kid and loving it :)" },
 
   { img: "{{site.baseurl}}/images/about/citlali.png", title: "Genshin Impact", note: "I really love the art style that this game uses!" },
-  { img: "{{site.baseurl}}/images/about/genshin cover.jpg", title: "Genshin Impact", note: "The lore used to be good... I loved the Liyue and Inazuma lore <3>" },
+  { img: "{{site.baseurl}}/images/about/genshin cover.jpg", title: "Genshin Impact", note: "The lore used to be good... I loved the Liyue and Inazuma lore!" },
 
   { img: "{{site.baseurl}}/images/about/destiny2 cover.jpg", title: "Destiny 2", note: "I absolutely ADORE the extensive lore that Bungie has built in the past 11 years of running this game!" },
   { img: "{{site.baseurl}}/images/about/destiny2 dynamic.webp", title: "Destiny 2", note: "The gunplay and combat mechanics are super satisfying too!" }
