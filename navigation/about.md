@@ -101,6 +101,7 @@ Here are some places I have visited/have family.
 
 And these are my favorite video games!!
 
+<script>
 // Clear the output
 outputElement.innerHTML = '';
 
@@ -166,6 +167,8 @@ for (const game of video_games) {
 
 // Add container to output
 outputElement.appendChild(container);
+
+</script>
 
 ### Journey through Life
 
