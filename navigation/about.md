@@ -104,6 +104,7 @@ And these are my favorite video games!!
 <div id="output"></div>
 
 <script>
+console.log("Script is running!");
 document.addEventListener("DOMContentLoaded", function() {
 
 const outputElement = document.getElementById('output');
