@@ -8,6 +8,8 @@ comments: true
 
 ### Intro:
 
+# And these are my favorite video games!!
+
 <script>
 
 // Clear the output
@@ -171,7 +173,7 @@ Here are some places I have visited/have family.
 - ⭐ **San Diego** and have lived here since then!
 - ⭐ **Puglia/Italy** My mom was born in Italy, specifically, Puglia, which is one of the south-east regions of Italy. We go back every summer to visit my family there.
 
-And these are my favorite video games!!
+
 
 
 ### Journey through Life
