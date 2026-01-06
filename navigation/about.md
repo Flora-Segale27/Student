@@ -101,7 +101,13 @@ Here are some places I have visited/have family.
 
 And these are my favorite video games!!
 
+<div id="output"></div>
+
 <script>
+document.addEventListener("DOMContentLoaded", function() {
+
+const outputElement = document.getElementById('output');
+
 // Clear the output
 outputElement.innerHTML = '';
 
