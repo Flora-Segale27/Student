@@ -5,6 +5,8 @@ permalink: /about/
 comments: true
 ---
 
+{% assign disable_login = true %}
+
 ### Intro:
 
 Here are some places I have visited/have family.
