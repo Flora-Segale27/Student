@@ -5,7 +5,6 @@ permalink: /about/
 comments: true
 ---
 
-{% assign disable_login = true %}
 
 ### Intro:
 
