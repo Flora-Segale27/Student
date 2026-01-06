@@ -99,6 +99,74 @@ Here are some places I have visited/have family.
 - ⭐ **San Diego** and have lived here since then!
 - ⭐ **Puglia/Italy** My mom was born in Italy, specifically, Puglia, which is one of the south-east regions of Italy. We go back every summer to visit my family there.
 
+And these are my favorite video games!!
+
+// Clear the output
+outputElement.innerHTML = '';
+
+// Data array
+const video_games = [
+  { img: "{{site.baseurl}}/images/about/minecraft wallpaper.webp", title: "Minecraft", note: "Basic Minecraft :)" },
+  { img: "{{site.baseurl}}/images/about/minecraft dungeons.jpg", title: "Minecraft", note: "A DLC of Minecraft that I got into last year." },
+
+  { img: "{{site.baseurl}}/images/about/rise cover.webp", title: "Rise of The Tomb Raider", note: "The first Tomb Raider game I played - I ABSOLUTELY LOVED ITT!" },
+  { img: "{{site.baseurl}}/images/about/rise dynamic.jpg", title: "Rise of The Tomb Raider", note: "The art and surround sound and combat is top-notch!" },
+
+  { img: "{{site.baseurl}}/images/about/shadow cover.webp", title: "Shadow of The Tomb Raider", note: "This game was also a masterpiece!" },
+  { img: "{{site.baseurl}}/images/about/shadow dynamic.webp", title: "Shadow of The Tomb Raider", note: "I have very vivid memories watching my dad play this as a kid and loving it :)" },
+
+  { img: "{{site.baseurl}}/images/about/citlali.png", title: "Genshin Impact", note: "I really love the art style that this game uses!" },
+  { img: "{{site.baseurl}}/images/about/genshin cover.jpg", title: "Genshin Impact", note: "The lore used to be good... I loved the Liyue and Inazuma lore <3>" },
+
+  { img: "{{site.baseurl}}/images/about/destiny2 cover.jpg", title: "Destiny 2", note: "I absolutely ADORE the extensive lore that Bungie has built in the past 11 years of running this game!" },
+  { img: "{{site.baseurl}}/images/about/destiny2 dynamic.webp", title: "Destiny 2", note: "The gunplay and combat mechanics are super satisfying too!" }
+];
+
+// Create a div container with id
+const container = document.createElement('div');
+container.id = 'grid_container';
+
+// Style the container
+container.style.border = '2px solid';
+container.style.padding = '10px';
+
+// Grid specific styles
+container.style.display = 'grid';
+container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container.style.gap = '10px';
+
+// Loop through data and create grid items
+for (const game of video_games) {
+  const gridItem = document.createElement('div');
+  gridItem.style.textAlign = 'center';
+
+  const img = document.createElement('img');
+  img.src = game.img;
+  img.alt = game.title;
+  img.style.width = '100%';
+  img.style.height = '100px';
+  img.style.objectFit = 'contain';
+
+  const title = document.createElement('p');
+  title.textContent = game.title;
+  title.style.margin = '5px 0';
+  title.style.fontWeight = 'bold';
+
+  const note = document.createElement('p');
+  note.textContent = game.note;
+  note.style.margin = '5px 0';
+  note.style.opacity = '0.7';
+
+  gridItem.appendChild(img);
+  gridItem.appendChild(title);
+  gridItem.appendChild(note);
+
+  container.appendChild(gridItem);
+}
+
+// Add container to output
+outputElement.appendChild(container);
+
 ### Journey through Life
 
 These are the places I've gone to school:
