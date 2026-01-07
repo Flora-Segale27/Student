@@ -6,12 +6,7 @@ comments: false
 ---
 
 <style>
-  #grid_container {
-    margin-bottom: 30px;
-  }
-</style>
-
-<style>
+  /* Base grid layout */
   #grid_container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -19,7 +14,7 @@ comments: false
     margin-bottom: 30px;
   }
 
-  /* Make the last two cards full-width */
+  /* Make cards 5 and 6 full-width */
   #grid_container .game-card:nth-child(5),
   #grid_container .game-card:nth-child(6) {
     grid-column: 1 / -1;
@@ -43,6 +38,19 @@ comments: false
     text-align: left;
     margin: 0;
   }
+
+  /* Add horizontal spacing for images in cards 1–4 */
+  #grid_container .game-card:not(.wide-card) img {
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Add horizontal spacing for text in cards 1–4 */
+  #grid_container .game-card:not(.wide-card) .entry {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 </style>
 
 ### Intro:
@@ -61,8 +69,8 @@ const video_games = [
     title: "Minecraft",
     color: "#4CAF50",
     entries: [
-      { img: "{{site.baseurl}}/images/about/minecraft wallpaper.webp", note: "Basic Minecraft :)" },
-      { img: "{{site.baseurl}}/images/about/minecraft dungeons.jpg", note: "A DLC of Minecraft that I got into last year." }
+      { img: "{{site.baseurl}}/images/about/minecraft wallpaper.webp", note: "Basic Minecraft :) I've played since I was really young and really loved building houses and beating the game." },
+      { img: "{{site.baseurl}}/images/about/minecraft dungeons.jpg", note: "Minecraft Dungeons is a DLC of Minecraft that I got into last year." }
     ]
   },
   {
@@ -70,7 +78,7 @@ const video_games = [
     color: "#6b9dcaff",
     entries: [
       { img: "{{site.baseurl}}/images/about/rise cover.webp", note: "The first Tomb Raider game I played - I ABSOLUTELY LOVED ITT!" },
-      { img: "{{site.baseurl}}/images/about/rise dynamic.jpg", note: "The art and surround sound and combat is top-notch!" }
+      { img: "{{site.baseurl}}/images/about/rise dynamic.jpg", note: "The art and surround sound and combat is top-notch! It always felt like I myself was getting shot XD" }
     ]
   },
   {
@@ -85,8 +93,8 @@ const video_games = [
     title: "Genshin Impact",
     color: "#F06292",
     entries: [
-      { img: "{{site.baseurl}}/images/about/citlali.png", note: "I really love the art style that this game uses!" },
-      { img: "{{site.baseurl}}/images/about/genshin cover.jpg", note: "The lore used to be good... I loved the Liyue and Inazuma lore!" }
+      { img: "{{site.baseurl}}/images/about/NAHIDA.gif", note: "I really love the art style that this game uses!" },
+      { img: "{{site.baseurl}}/images/about/juanderer.gif", note: "The lore used to be good... I loved the Liyue and Inazuma lore!" }
     ]
   },
   {
@@ -118,14 +126,15 @@ video_games.forEach((game, index) => {
   }
 
   gameCard.style.border = `3px solid ${game.color}`;
-  gameCard.style.padding = "12x";
+  gameCard.style.padding = "16x";
   gameCard.style.borderRadius = "10px";
   gameCard.style.background = "#302b2bff";
 
   const title = document.createElement("h3");
   title.textContent = game.title;
   title.style.textAlign = "center";
-  title.style.marginBottom = "10px";
+  title.style.marginBottom = "5px";
+  title.style.marginTop = "5px";
   title.style.fontSize = "1.1em";
   gameCard.appendChild(title);
 
@@ -148,8 +157,9 @@ video_games.forEach((game, index) => {
       img.style.height = "auto";
       img.style.flexShrink = "0";
     } else {
-      img.style.width = "100%";
-      img.style.height = "auto";
+  img.style.width = "100%";   // or 85%, or 80% — tune to taste
+  img.style.height = "auto";
+  img.style.margin = "0 auto"; // centers the image
     }
 
     img.style.objectFit = "cover";
