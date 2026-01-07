@@ -1,167 +1,176 @@
 ---
 layout: post
-title: ᗩᗷOᑌT!
+title: ~About!~
 permalink: /about/
-comments: true
+comments: false
 ---
 
+<style>
+  #grid_container {
+    margin-bottom: 30px;
+  }
+</style>
+
+<style>
+  #grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  /* Make the last two cards full-width */
+  #grid_container .game-card:nth-child(5),
+  #grid_container .game-card:nth-child(6) {
+    grid-column: 1 / -1;
+  }
+
+  /* Horizontal layout ONLY for cards 5 and 6 */
+  #grid_container .wide-card .entry {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  #grid_container .wide-card img {
+    width: 130px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 5px;
+  }
+
+  #grid_container .wide-card p {
+    text-align: left;
+    margin: 0;
+  }
+</style>
 
 ### Intro:
 
-# And these are my favorite video games!!
+These are my favorite video games!!
 
 <div id="grid_container"></div>
 
 <script>
 var outputElement = document.getElementById("grid_container");
-// Clear the output
-outputElement.innerHTML = '';
+outputElement.innerHTML = "";
 
-// Data array
+// Grouped data structure
 const video_games = [
-  { img: "{{site.baseurl}}/images/about/minecraft wallpaper.webp", title: "Minecraft", note: "Basic Minecraft :)" },
-  { img: "{{site.baseurl}}/images/about/minecraft dungeons.jpg", title: "Minecraft", note: "A DLC of Minecraft that I got into last year." },
-
-  { img: "{{site.baseurl}}/images/about/rise cover.webp", title: "Rise of The Tomb Raider", note: "The first Tomb Raider game I played - I ABSOLUTELY LOVED ITT!" },
-  { img: "{{site.baseurl}}/images/about/rise dynamic.jpg", title: "Rise of The Tomb Raider", note: "The art and surround sound and combat is top-notch!" },
-
-  { img: "{{site.baseurl}}/images/about/shadow cover.webp", title: "Shadow of The Tomb Raider", note: "This game was also a masterpiece!" },
-  { img: "{{site.baseurl}}/images/about/shadow dynamic.webp", title: "Shadow of The Tomb Raider", note: "I have very vivid memories watching my dad play this as a kid and loving it :)" },
-
-  { img: "{{site.baseurl}}/images/about/citlali.png", title: "Genshin Impact", note: "I really love the art style that this game uses!" },
-  { img: "{{site.baseurl}}/images/about/genshin cover.jpg", title: "Genshin Impact", note: "The lore used to be good... I loved the Liyue and Inazuma lore!" },
-
-  { img: "{{site.baseurl}}/images/about/d2 dynamic 2.jpg", title: "Destiny 2", note: "I absolutely ADORE the extensive lore that Bungie has built in the past 11 years of running this game!" },
-  { img: "{{site.baseurl}}/images/about/d2 dynamic.webp", title: "Destiny 2", note: "The gunplay and combat mechanics are super satisfying too!" }
+  {
+    title: "Minecraft",
+    color: "#4CAF50",
+    entries: [
+      { img: "{{site.baseurl}}/images/about/minecraft wallpaper.webp", note: "Basic Minecraft :)" },
+      { img: "{{site.baseurl}}/images/about/minecraft dungeons.jpg", note: "A DLC of Minecraft that I got into last year." }
+    ]
+  },
+  {
+    title: "Rise of The Tomb Raider",
+    color: "#6b9dcaff",
+    entries: [
+      { img: "{{site.baseurl}}/images/about/rise cover.webp", note: "The first Tomb Raider game I played - I ABSOLUTELY LOVED ITT!" },
+      { img: "{{site.baseurl}}/images/about/rise dynamic.jpg", note: "The art and surround sound and combat is top-notch!" }
+    ]
+  },
+  {
+    title: "Shadow of The Tomb Raider",
+    color: "#69145bff",
+    entries: [
+      { img: "{{site.baseurl}}/images/about/shadow cover.webp", note: "This game was also a masterpiece!" },
+      { img: "{{site.baseurl}}/images/about/shadow dynamic.webp", note: "I have very vivid memories watching my dad play this as a kid and loving it :)" }
+    ]
+  },
+  {
+    title: "Genshin Impact",
+    color: "#F06292",
+    entries: [
+      { img: "{{site.baseurl}}/images/about/citlali.png", note: "I really love the art style that this game uses!" },
+      { img: "{{site.baseurl}}/images/about/genshin cover.jpg", note: "The lore used to be good... I loved the Liyue and Inazuma lore!" }
+    ]
+  },
+  {
+    title: "Destiny 2",
+    color: "#FFB300",
+    entries: [
+      { img: "{{site.baseurl}}/images/about/d2 dynamic 2.jpg", note: "I absolutely ADORE the extensive lore that Bungie has built in the past 11 years of running this game!" },
+      { img: "{{site.baseurl}}/images/about/d2 dynamic.webp", note: "The gunplay and combat mechanics are super satisfying too!" }
+    ]
+  },
+  {
+    title: "Forza Horizon 5",
+    color: "#1d3284ff",
+    entries: [
+      { img: "{{site.baseurl}}/images/about/forza cover 2.webp", note: "My dad got this game for me along with the Xbox wheel, pedals, and clutch so I can practice driving before I can get my permit." },
+      { img: "{{site.baseurl}}/images/about/forza cover.webp", note: "The scenery and the cars are super sick!" }
+    ]
+  }
 ];
 
-// Create a div container with id
-const container = document.createElement('div');
-container.id = 'grid_container';
+// Build each game card
+video_games.forEach((game, index) => {
+  const gameCard = document.createElement("div");
+  gameCard.className = "game-card";
 
-// Style the container
-container.style.border = '2px solid';
-container.style.padding = '10px';
+  // Mark cards 5 & 6 as wide
+  if (index === 4 || index === 5) {
+    gameCard.classList.add("wide-card");
+  }
 
-// Grid specific styles
-container.style.display = 'grid';
-container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
-container.style.gap = '10px';
+  gameCard.style.border = `3px solid ${game.color}`;
+  gameCard.style.padding = "12x";
+  gameCard.style.borderRadius = "10px";
+  gameCard.style.background = "#302b2bff";
 
-// Loop through data and create grid items
-for (const game of video_games) {
-  const gridItem = document.createElement('div');
-  gridItem.style.textAlign = 'center';
-
-  const img = document.createElement('img');
-  img.src = game.img;
-  img.alt = game.title;
-  img.style.width = '100%';
-  img.style.height = '100px';
-  img.style.objectFit = 'contain';
-
-  const title = document.createElement('p');
+  const title = document.createElement("h3");
   title.textContent = game.title;
-  title.style.margin = '5px 0';
-  title.style.fontWeight = 'bold';
+  title.style.textAlign = "center";
+  title.style.marginBottom = "10px";
+  title.style.fontSize = "1.1em";
+  gameCard.appendChild(title);
 
-  const note = document.createElement('p');
-  note.textContent = game.note;
-  note.style.margin = '5px 0';
-  note.style.opacity = '0.7';
+  const innerColumn = document.createElement("div");
+  innerColumn.style.display = "flex";
+  innerColumn.style.flexDirection = "column";
+  innerColumn.style.gap = "10px";
 
-  gridItem.appendChild(img);
-  gridItem.appendChild(title);
-  gridItem.appendChild(note);
+  game.entries.forEach(entry => {
+    const item = document.createElement("div");
+    item.className = "entry";
 
-  container.appendChild(gridItem);
-}
+    const img = document.createElement("img");
+    img.src = entry.img;
+    img.alt = game.title;
 
-// Add container to output
-outputElement.appendChild(container);
+    // Only shrink images for cards 5 & 6
+    if (index === 4 || index === 5) {
+      img.style.width = "130px";
+      img.style.height = "auto";
+      img.style.flexShrink = "0";
+    } else {
+      img.style.width = "100%";
+      img.style.height = "auto";
+    }
 
+    img.style.objectFit = "cover";
+    img.style.borderRadius = "5px";
+
+    const note = document.createElement("p");
+    note.textContent = entry.note;
+    note.style.fontSize = "0.9em";
+    note.style.opacity = "0.8";
+
+    item.appendChild(img);
+    item.appendChild(note);
+    innerColumn.appendChild(item);
+  });
+
+  gameCard.appendChild(innerColumn);
+  outputElement.appendChild(gameCard);
+});
 </script>
 
-
-Here are some places I have visited/have family.
-
-<style>
-     /* Style looks pretty compact,
-         - the classes `grid-container` and `grid-item` are referenced in the code
-     */
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
-        gap: 10px;
-    }
-    .grid-item {
-        text-align: center;
-    }
-    .grid-item img {
-        width: 100%;
-        height: 100px; /* Fixed height for uniformity */
-        object-fit: contain; /* Ensure the image fits within the fixed height */
-    }
-    .grid-item p {
-        margin: 5px 0; /* Add some margin for spacing */
-    }
-
-    .image-gallery {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        gap: 10px;
-        }
-
-    .image-gallery img {
-        max-height: 150px;
-        object-fit: cover;
-        border-radius: 5px;
-    }
-</style>
-
-<!-- This container uses class `grid-container` for CSS and id `grid_container` for JavaScript -->
-<div class="grid-container" id="grid_container">
-    <!-- content will be added here by JavaScript -->
-</div>
-
-<!--
-<script>
-    // 1. Make a connection to the HTML container defined in the HTML div
-    const container = document.getElementById("grid_container");
-
-    // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
-    const http_source = "https://upload.wikimedia.org/wikipedia/commons/";
-    const living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "b/b9/Flag_of_Oregon.svg", "greeting": "Hi", "description": "Oregon - 9 years"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"}
-    ];
-
-    // 3. Build grid items inside our container for each row of data
-    for (const location of living_in_the_world) {
-        const gridItem = document.createElement("div");
-        gridItem.className = "grid-item";
-
-        const img = document.createElement("img");
-        img.src = http_source + location.flag;
-        img.alt = location.description + " flag";
-
-        const description = document.createElement("p");
-        description.textContent = location.description;
-
-        const greeting = document.createElement("p");
-        greeting.textContent = location.greeting;
-
-        gridItem.appendChild(img);
-        gridItem.appendChild(description);
-        gridItem.appendChild(greeting);
-
-        container.appendChild(gridItem);
-    }
-
-</script> -->
+### Places I've Lived or Have Family In:
 
 <div class="row">
 <img src="{{site.baseurl}}/images/about/minnesota flag.png" style="height:100px; margin-right:50px;" alt="Minnesota">
