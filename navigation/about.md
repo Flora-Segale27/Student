@@ -101,8 +101,8 @@ const video_games = [
     title: "Destiny 2",
     color: "#FFB300",
     entries: [
-      { img: "{{site.baseurl}}/images/about/d2 dynamic 2.jpg", note: "I absolutely ADORE the extensive lore that Bungie has built in the past 11 years of running this game!" },
-      { img: "{{site.baseurl}}/images/about/d2 dynamic.webp", note: "The gunplay and combat mechanics are super satisfying too!" }
+      { img: "{{site.baseurl}}/images/about/d2 dynamic 2.jpg", note: "I absolutely ADORE the extensive lore that Bungie has built in the past 12 years of running this game!" },
+      { img: "{{site.baseurl}}/images/about/d2 dynamic.webp", note: "I grew up watching my dad plasy Destiny 1, and when Destiny 2 came out, I was old enough to play as well! The gunplay and combat mechanics are super satisfying too." }
     ]
   },
   {
