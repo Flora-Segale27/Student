@@ -212,10 +212,29 @@ My family consists of my mom, dad, and my baby brother.
 - My dad's side of the family is from Minnesota, USA, with Irish and Northern Italian origins.
 - My mom's side is from Puglia (the "heel" of Italy's "boot"). Many relatives later moved to Northern Italy near the borders with Austria, Germany, and France. Their children learn Italian, German, and English at school.
 
-<!-- Some of my most recent favorite pictures — scroll right to see more -->
+Some of my most recent favorite pictures — scroll right to see more!
+
+<style>
+.image-gallery {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+}
+
+.image-gallery img {
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+</style>
+
 <div class="image-gallery">
     <img src="{{site.baseurl}}/images/about/anthony_selfie.png" alt="Anthony selfie">
-    <img src="{{site.baseurl}}/images/about/baylee_pic.png" alt="Baylee">
     <img src="{{site.baseurl}}/images/about/d2_fynch.png" alt="Destiny 2 Character">
     <img src="{{site.baseurl}}/images/about/hoco_pic_w_girls.png" alt="Homecoming with friends">
     <img src="{{site.baseurl}}/images/about/last_race_group_pic.png" alt="Last race group">
